@@ -1,0 +1,89 @@
+#top {
+  font-family: Georgia;
+  border-radius: 4px;
+  margin: 6px;
+  margin-bottom: 20px;
+  background-color: #4CAF50; /* Dark green */
+  color: #ffffff; /* White font color */
+  padding: 6px;
+  width: 60%;
+}
+
+#top h1, #top p {
+  margin: 0;
+  padding: 0;
+}
+
+#top h1 {
+  margin-bottom: 10px;
+}
+
+#top p {
+  padding-left: 20px;
+}
+
+
+#numbers-box {
+  margin: 10px;
+  align-items: center;
+  font-size: 1.25em;
+  margin-right: 30px;
+}
+
+.number-prompt {
+  margin-right: 30px;
+}
+
+.number-prompt input {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 5px;
+  width: 60px;
+  padding-left: 2px;
+}
+
+button {
+  font-size: .8em;
+}
+
+
+#operations {
+  margin: 10px;
+  display: inline;
+  border: 1px solid #C0C0C0;
+}
+
+#operations legend {
+  font-size: 20px;
+}
+
+#operations input {
+  margin-left: 10px;
+}
+
+
+#output {
+  font-size: 1.5em;
+}
+
+#result {
+  border:4px solid #000;
+  border-collapse: collapse;
+}
+
+#result td {
+  border:1px solid #000;
+}
+
+#result th {
+  border:1px solid #000;
+  border-bottom:2px solid #000;
+  padding: 10px;
+}
+
+#result tr td {
+  padding: 4px;
+  padding-left: 10px;
+  width: 0;
+  white-space: nowrap;
+}

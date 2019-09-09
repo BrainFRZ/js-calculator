@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel='stylesheet' href='style.css'>
+  <script src='script.js' defer></script>
+</head>
+
+<body onload='drawResults()'>
+  <div id='top'>
+    <h1>Javascript Calculator</h1>
+    <p>This is a calculator project to begin learning Javascript and CSS.</p>
+  </div>
+
+  <div id='numbers-box'>
+    <span class='number-prompt'>Number 1: <input id='num1' type='number' onblur='drawResults()'></span>
+    <span class='number-prompt'>Number 2: <input id='num2' type='number' onblur='drawResults()'></span>
+    <button type="button" onclick="swapNumbers()">Swap</button>
+  </div>
+  
+  <form>
+    <fieldset id='operations'>
+      <legend>Operations:</legend>
+      <input type='checkbox' id='add' onclick='drawResults()' checked> Add<br>
+      <input type='checkbox' id='subtract' onclick='drawResults()' checked> Subtract<br>
+      <input type='checkbox' id='multiply' onclick='drawResults()' checked> Multiply<br>
+      <input type='checkbox' id='divide' onclick='drawResults()' checked> Divide
+    </fieldset>
+  </form>
+
+  <br>
+
+  <div id='output'>
+  </div>
+</body>
+</html>
