@@ -1,0 +1,24 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A project to learn HTML, CSS, JS and React",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrainFRZ/js-calculator.git"
+  },
+  "author": "Terry Weiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrainFRZ/js-calculator/issues"
+  },
+  "homepage": "https://github.com/BrainFRZ/js-calculator#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.14.3"
+  }
+}
